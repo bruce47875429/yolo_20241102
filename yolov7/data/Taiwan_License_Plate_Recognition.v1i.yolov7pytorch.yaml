@@ -1,0 +1,16 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /content/drive/MyDrive/yolo_20241102/Taiwan_License_Plate_Recognition.v1i.yolov7pytorch/train  # 2352 images
+val: /content/drive/MyDrive/yolo_20241102/Taiwan_License_Plate_Recognition.v1i.yolov7pytorch/valid  # 681 images
+test: /content/drive/MyDrive/yolo_20241102/Taiwan_License_Plate_Recognition.v1i.yolov7pytorch/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 6
+
+# class names
+names: ['W', 'Y', 'GW', 'WG', 'RW', 'WR']
+

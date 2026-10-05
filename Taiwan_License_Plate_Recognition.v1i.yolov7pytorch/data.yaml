@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['GW', 'RW', 'W', 'WG', 'WR', 'Y']
+
+roboflow:
+  workspace: project-a2ia8
+  project: taiwan-license-plate-recognition
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-a2ia8/taiwan-license-plate-recognition/dataset/1
